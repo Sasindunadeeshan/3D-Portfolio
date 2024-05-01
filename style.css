@@ -182,15 +182,18 @@ svg {
   display: flex;
   opacity: 0;
   flex-direction: row;
-  top: 48px;
-  right: 48px;
+  top: 28px;
+  right: 28px;
   z-index: 99999999999999;
-  width: 92%;
-  gap: auto
+  width: 92.5%;
 }
 
 .download-btn-container {
-  width: 50%;
+  width: 100%; /* Adjusted width for mobile */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
 }
 
 .theme-selector-my {
@@ -202,7 +205,7 @@ svg {
   border-radius: 999px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  width: 50%;
+  width: 100%;
 }
 
 .download-btn {
