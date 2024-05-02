@@ -27,22 +27,27 @@
   </div>
 
   <div class="page" asscroll-container>
-
     <div class="toggle-bar">
-      <div class="download-btn-container">        
-          <button class="download-btn" onclick="downloadCV()">Download CV</button>        
-          <script>
-            function downloadCV() {
-                
-                const cvUrl = "/sasindunadeeshan.pdf";
-                const link = document.createElement("a");
-                link.href = cvUrl;
-                link.download = "Sasindu_Nadeeshan_CV.pdf"; // Change the filename as needed
-                link.click();
-            }
-        </script>
+      <div class="download-btn-container">
+        <button class="download-btn" onclick="downloadCV()">Download CV</button>
       </div>
       <div class="theme-selector-my">
+        <div class="github-btn">
+          <svg id="github-svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
+            viewBox="0 0 64 64">
+            <path fill="currentColor"
+              d="M 32 10 C 19.85 10 10 19.85 10 32 C 10 44.15 19.85 54 32 54 C 44.15 54 54 44.15 54 32 C 54 19.85 44.15 10 32 10 z M 32 14 C 41.941 14 50 22.059 50 32 C 50 40.238706 44.458716 47.16934 36.904297 49.306641 C 36.811496 49.1154 36.747844 48.905917 36.753906 48.667969 C 36.784906 47.458969 36.753906 44.637563 36.753906 43.601562 C 36.753906 41.823563 35.628906 40.5625 35.628906 40.5625 C 35.628906 40.5625 44.453125 40.662094 44.453125 31.246094 C 44.453125 27.613094 42.554688 25.720703 42.554688 25.720703 C 42.554688 25.720703 43.551984 21.842266 42.208984 20.197266 C 40.703984 20.034266 38.008422 21.634812 36.857422 22.382812 C 36.857422 22.382813 35.034 21.634766 32 21.634766 C 28.966 21.634766 27.142578 22.382812 27.142578 22.382812 C 25.991578 21.634813 23.296016 20.035266 21.791016 20.197266 C 20.449016 21.842266 21.445312 25.720703 21.445312 25.720703 C 21.445312 25.720703 19.546875 27.611141 19.546875 31.244141 C 19.546875 40.660141 28.371094 40.5625 28.371094 40.5625 C 28.371094 40.5625 27.366329 41.706312 27.265625 43.345703 C 26.675939 43.553637 25.872132 43.798828 25.105469 43.798828 C 23.255469 43.798828 21.849984 42.001922 21.333984 41.169922 C 20.825984 40.348922 19.7845 39.660156 18.8125 39.660156 C 18.1725 39.660156 17.859375 39.981656 17.859375 40.347656 C 17.859375 40.713656 18.757609 40.968484 19.349609 41.646484 C 20.597609 43.076484 20.574484 46.292969 25.021484 46.292969 C 25.547281 46.292969 26.492043 46.171872 27.246094 46.068359 C 27.241926 47.077908 27.230199 48.046135 27.246094 48.666016 C 27.251958 48.904708 27.187126 49.114952 27.09375 49.306641 C 19.540258 47.168741 14 40.238046 14 32 C 14 22.059 22.059 14 32 14 z">
+            </path>
+          </svg>
+        </div>
+        <div class="linkedin-btn">
+          <svg id="linkedin-svg" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+            viewBox="0 0 48 48">
+            <path fill="currentColor"
+              d="M 11.5 6 C 8.4802259 6 6 8.4802259 6 11.5 L 6 36.5 C 6 39.519774 8.4802259 42 11.5 42 L 36.5 42 C 39.519774 42 42 39.519774 42 36.5 L 42 11.5 C 42 8.4802259 39.519774 6 36.5 6 L 11.5 6 z M 11.5 9 L 36.5 9 C 37.898226 9 39 10.101774 39 11.5 L 39 36.5 C 39 37.898226 37.898226 39 36.5 39 L 11.5 39 C 10.101774 39 9 37.898226 9 36.5 L 9 11.5 C 9 10.101774 10.101774 9 11.5 9 z M 15.5 13 A 2.5 2.5 0 0 0 15.5 18 A 2.5 2.5 0 0 0 15.5 13 z M 14 20 C 13.447 20 13 20.447 13 21 L 13 34 C 13 34.553 13.447 35 14 35 L 17 35 C 17.553 35 18 34.553 18 34 L 18 21 C 18 20.447 17.553 20 17 20 L 14 20 z M 21 20 C 20.447 20 20 20.447 20 21 L 20 34 C 20 34.553 20.447 35 21 35 L 24 35 C 24.553 35 25 34.553 25 34 L 25 26.5 C 25 25.121 26.121 24 27.5 24 C 28.879 24 30 25.121 30 26.5 L 30 34 C 30 34.553 30.447 35 31 35 L 34 35 C 34.553 35 35 34.553 35 34 L 35 26 C 35 22.691 32.309 20 29 20 C 27.462 20 26.063 20.586016 25 21.541016 L 25 21 C 25 20.447 24.553 20 24 20 L 21 20 z">
+            </path>
+          </svg>
+        </div>
         <div class="sun-wrapper">
           <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
             <path fill="currentColor"
@@ -110,18 +115,11 @@
 
         <div class="section-detail-wrapper">
           <!-- <h3 class="section-heading">Hello!</h3> -->
-          <p class="section-text">My name is Md Amiruddin and I'm currently learning from Hack the Box & TryHackMe. My
-            passion lies in identifying, preventing, and resolving computer security issues and I am actively seeking
-            internships or entry-level positions within the field.</p>
-          <p class="section-text">I have a deep foundational understanding of Web application penetration testing,
-            classic encryption and cryptography, as well as operating system and network security such as intrusion
-            detection/prevention systems. I am well-versed in not only the application of modern defense solutions, but
-            also the development and testing of custom security protocols.</p>
-          <p class="section-text">I am always looking for an opportunity to demonstrate my knowledge of cyber security
-            and to collaborate with others in the field. I am eager to make a contribution to any computer security
-            initiatives, and I believe my technical expertise combined with my willingness to learn and act quickly make
-            me an excellent candidate for any cyber-security related positions.</p>
-          <p class="section-text"> I love creating CTF Machines and love doing Machines From HackTheBox!✌️.</p>
+          <p class="section-text">My name is Sasindu Nadeeshan and I'm a undergraduate software engineer with experience
+            in JavaScript,TypeScript and Java and expertise in frameworks like React and Node.js.</p>
+          <p class="section-text">I'm a quick learner and I am always looking for opportunities to learn and grow as a
+            developer, and I am excited to use my skills to make a positive impact and continue my career in the field
+            of Information Technology.</p>
           <br>
           <br>
           <br>
@@ -368,7 +366,7 @@
         </div>
       </section>
       <footer class="footer">
-        <span class="footer__copyright">Copyright &copy; 2023 - Md Amiruddin</span>
+        <button id="scrollToTopBtn" onclick="scrollToTop()">Back to Top</button>
       </footer><br><br>
 
 
@@ -377,6 +375,36 @@
 
     </div>
   </div>
+  <script>
+    //download cv
+    function downloadCV() {
+
+      const cvUrl = "/sasindunadeeshan.pdf";
+      const link = document.createElement("a");
+      link.href = cvUrl;
+      link.download = "Sasindu_Nadeeshan_CV.pdf";
+      link.click();
+    }
+    //scroll to top
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+
+    document.getElementById('github-svg').addEventListener('click', function () {
+      var url = "https://github.com/Sasindunadeeshan";
+      var win = window.open(url, '_blank');
+      win.focus();
+    });
+
+    document.getElementById('linkedin-svg').addEventListener('click', function () {
+      var url = "https://www.linkedin.com/in/sasindu-nadeeshan-1466b3218";
+      var win = window.open(url, '_blank');
+      win.focus();
+    });
+  </script>
   <script type="module" src="/main.js"></script>
 </body>
 

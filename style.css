@@ -166,6 +166,24 @@ svg {
   animation: bounce 0.5s ease-in alternate infinite;
 }
 
+/*back to the top*/
+#scrollToTopBtn {
+  border: 2px solid var(--color-pink);
+  padding: 0 8px 0 8PX;
+  border-radius: 999px;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  height: 30px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: var(--color-pink);
+  color: var(--color-background);
+}
+
 @keyframes bounce {
   0% {
     transform: translateY(0)
@@ -203,7 +221,6 @@ svg {
   align-items: center;
   padding: 8px;
   border-radius: 999px;
-  cursor: pointer;
   transition: all 0.2s ease-in-out;
   width: 100%;
 }
@@ -223,6 +240,26 @@ svg {
 .download-btn:hover {
   background-color: var(--color-pink);
   color: var(--color-background);
+}
+
+.github-btn{
+  padding: 4px 1px;
+  border-radius: 999px;
+  color: var(--color-text);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  height: 40px;
+}
+
+.linkedin-btn{
+  padding: 5px 16px;
+  border-radius: 999px;
+  color: var(--color-text);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  height: 40px;
 }
 
 .sun-wrapper,
@@ -450,6 +487,12 @@ svg {
   font-size: 32px;
   text-transform: uppercase;
   color: var(--color-text);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
